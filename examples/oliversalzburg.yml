@@ -1,0 +1,109 @@
+projects:
+  - title: Projects
+    projects:
+      - org: kitten-science
+        repo: kitten-scientists
+        name: Kitten Scientists v2
+        description: An extension for [Kittens Game](https://kittensgame.com/).
+        activeMaintenance: true
+        hasReleases: true
+      - org: apt-repositories
+        repo: generator
+        name: APT Repositories
+        description: Provides APT metadata for Debian/Ubuntu package repositories.
+        activeMaintenance: true
+        hasReleases: true
+        checks:
+          - debian
+          - ubuntu
+      - org: oliversalzburg
+        repo: node-scripts-docs
+        name: node-scripts-docs
+        description: Create reference documentations for scripts in NodeJS `package.json` manifests.
+        activeMaintenance: true
+        hasReleases: true
+      - org: oliversalzburg
+        repo: js-utils
+        name: JS Utilities
+        description: Common utilities for JS/TS projects with zero dependencies.
+        activeMaintenance: true
+        hasReleases: true
+      - org: oliversalzburg
+        repo: containers
+        name: Containers
+        description: General workload containerization playground.
+        activeMaintenance: true
+      - org: oliversalzburg
+        repo: nodes-js
+        name: Nodes.js
+        description: Node-based playground for JavaScript.
+      - org: oliversalzburg
+        repo: docker-cloudflare-dns
+        name: docker-cloudflare-dns
+        description: Updates CloudFlare DNS with IP addresses of running Docker containers. Also illustrates how to containerize NodeJS workloads.
+        hasReleases: true
+
+  - title: Actions
+    projects:
+      - org: oliversalzburg
+        repo: action-automatic-semantic-releases
+        name: Automatic Semantic Releases Action
+        description: Create GitHub releases with zero effort.
+        activeMaintenance: true
+        hasReleases: true
+      - org: oliversalzburg
+        repo: action-commit-validator
+        name: Commit Validator Action
+        description: Ensure commits in your repository align with [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) expectations.
+        activeMaintenance: true
+        hasReleases: true
+      - org: oliversalzburg
+        repo: action-label-manager
+        name: Label Manager Action
+        description: Maintain the labels in your GitHub project through code.
+        activeMaintenance: true
+        hasReleases: true
+      - org: oliversalzburg
+        repo: workflows
+        name: Shared Workflows
+        description: Centrally managed pipelines for most maintained projects.
+        activeMaintenance: true
+
+  - title: Templates
+    projects:
+      - org: oliversalzburg
+        repo: js-monorepo
+        name: js-monorepo
+        description: JS/TS monorepo, using [yarn project manager](https://yarnpkg.com/).
+        activeMaintenance: true
+        checks:
+          - qa
+      - org: oliversalzburg
+        repo: nodejs
+        name: nodejs
+        description: NodeJS project that uses [esbuild](https://esbuild.github.io/).
+        activeMaintenance: true
+        checks:
+          - qa
+      - org: oliversalzburg
+        repo: browser
+        name: browser
+        description: Browser project that uses [vite](https://vitejs.dev/).
+        activeMaintenance: true
+        checks:
+          - qa
+      - org: oliversalzburg
+        repo: aws-lambda-nodejs
+        name: aws-lambda-nodejs
+        description: JS/TS project with AWS Lambda NodeJS runtime target.
+        activeMaintenance: true
+        checks:
+          - qa
+      - org: oliversalzburg
+        repo: hugo
+        name: hugo
+        description: Static website built with [Hugo](https://gohugo.io/).
+        checks:
+          - qa
+
+suffix: "-   ⭐ = Under active maintenance"
