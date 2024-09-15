@@ -30,16 +30,16 @@ interface ReadmeConfig {
   suffix?: string;
 }
 
-const BADGE_STYLE = "style=flat-square";
+const BADGE_STYLE = "style=flat-square&labelColor=%230000";
 
 const defaultBranchCheck = (project: ProjectConfig) => {
-  return `![GitHub branch check runs](https://img.shields.io/github/check-runs/${project.org}/${project.repo}/${project.main ?? "main"}?${BADGE_STYLE})`;
+  return `[![GitHub branch check runs](https://img.shields.io/github/check-runs/${project.org}/${project.repo}/${project.main ?? "main"}?${BADGE_STYLE})](https://github.com/${project.org}/${project.repo}/actions)`;
 };
 const workflowStatus = (project: ProjectConfig, workflow: string) => {
-  return `![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/${project.org}/${project.repo}/${workflow}.yml?label=${workflow}&${BADGE_STYLE})`;
+  return `[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/${project.org}/${project.repo}/${workflow}.yml?label=${workflow}&${BADGE_STYLE})](https://github.com/${project.org}/${project.repo}/actions)`;
 };
 const commitsSinceRelease = (project: ProjectConfig) => {
-  return `![GitHub commits since latest release](https://img.shields.io/github/commits-since/${project.org}/${project.repo}/latest?${BADGE_STYLE})`;
+  return `[![GitHub commits since latest release](https://img.shields.io/github/commits-since/${project.org}/${project.repo}/latest?${BADGE_STYLE})](https://github.com/${project.org}/${project.repo}/releases)`;
 };
 
 const main = async () => {
@@ -52,8 +52,9 @@ const main = async () => {
 
     for (const project of group.projects) {
       document.push(
-        `1. [${project.name}](https://github.com/${project.org}/${project.repo})${project.activeMaintenance ? " ⭐" : ""}  `,
+        `* [${project.name}](https://github.com/${project.org}/${project.repo})${project.activeMaintenance ? " ⭐" : ""}  `,
       );
+      document.push(`   ${project.description}\n`);
       if (!isNil(project.checks)) {
         document.push(
           `   ${project.checks
@@ -66,7 +67,6 @@ const main = async () => {
           `   ${defaultBranchCheck(project)}${project.hasReleases ? " " + commitsSinceRelease(project) : ""}  `,
         );
       }
-      document.push(`   ${project.description}\n`);
     }
 
     document.push(`\n`);
