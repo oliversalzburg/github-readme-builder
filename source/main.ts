@@ -54,7 +54,7 @@ const main = async () => {
       document.push(
         `* [${project.name}](https://github.com/${project.org}/${project.repo})${project.activeMaintenance ? " ⭐" : ""}  `,
       );
-      document.push(`   ${project.description}\n`);
+      document.push(`   ${project.description}  `);
       if (!isNil(project.checks)) {
         document.push(
           `   ${project.checks
@@ -67,10 +67,10 @@ const main = async () => {
           `   ${defaultBranchCheck(project)}${project.hasReleases ? " " + commitsSinceRelease(project) : ""}  `,
         );
       }
+      document.push(`\n`);
     }
-
-    document.push(`\n`);
   }
+
   document.push(configObject.suffix ?? "");
 
   process.stdout.write(document.join("\n"));
