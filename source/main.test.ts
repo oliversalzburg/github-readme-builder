@@ -1,11 +1,17 @@
-/* eslint-disable @typescript-eslint/no-unused-expressions */
-/* eslint-disable no-unused-expressions */
 import { expect } from "chai";
+import { readFile } from "fs/promises";
 import { describe, it } from "mocha";
-import { nothing } from "./main.js";
+import { main } from "./main.js";
 
 describe("main", () => {
-  it("should export nothing", () => {
-    expect(nothing).to.be.undefined;
+  let fixtureDocument: string | undefined;
+
+  before(async () => {
+    fixtureDocument = await readFile("./examples/oliversalzburg.md", "utf8");
+  });
+
+  it("should generate a document matching the fixture", async () => {
+    const document = await main("./examples/oliversalzburg.yml");
+    expect(document).to.equal(fixtureDocument);
   });
 });
