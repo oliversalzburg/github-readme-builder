@@ -1,4 +1,5 @@
 .yarn/
 coverage/
+examples/*.md
 node_modules/
 output/
