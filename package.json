@@ -17,7 +17,7 @@
     "test:coverage": "tsc && c8 --reporter=html-spa node $(yarn bin mocha) output/*.test.js"
   },
   "dependencies": {
-    "yaml": "2.6.0"
+    "yaml": "2.6.1"
   },
   "devDependencies": {
     "@eslint/js": "9.15.0",
