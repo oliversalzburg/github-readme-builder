@@ -62,7 +62,7 @@
 
 * [ESLint Configuration](https://github.com/oliversalzburg/eslint-config) ⭐  
    ESLint preset for most JavaScript projects.  
-   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/eslint-config/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/eslint-config/actions)
+   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/eslint-config/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/eslint-config/actions) [![GitHub commits since latest release](https://img.shields.io/github/commits-since/oliversalzburg/eslint-config/latest?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/eslint-config/releases)
 
 * [aws-lambda-nodejs](https://github.com/oliversalzburg/aws-lambda-nodejs) ⭐  
    JS/TS project with AWS Lambda NodeJS runtime target.  

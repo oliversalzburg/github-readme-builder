@@ -97,6 +97,7 @@ projects:
         name: ESLint Configuration
         description: ESLint preset for most JavaScript projects.
         activeMaintenance: true
+        hasReleases: true
       - org: oliversalzburg
         repo: aws-lambda-nodejs
         name: aws-lambda-nodejs
