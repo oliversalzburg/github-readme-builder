@@ -93,6 +93,11 @@ projects:
         checks:
           - qa
       - org: oliversalzburg
+        repo: eslint-config
+        name: ESLint Configuration
+        description: ESLint preset for most JavaScript projects.
+        activeMaintenance: true
+      - org: oliversalzburg
         repo: aws-lambda-nodejs
         name: aws-lambda-nodejs
         description: JS/TS project with AWS Lambda NodeJS runtime target.

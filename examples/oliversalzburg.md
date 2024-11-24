@@ -60,6 +60,10 @@
    Browser project that uses [vite](https://vitejs.dev/).  
    [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/oliversalzburg/browser/qa.yml?label=qa&style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/browser/actions) 
 
+* [ESLint Configuration](https://github.com/oliversalzburg/eslint-config) ⭐  
+   ESLint preset for most JavaScript projects.  
+   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/eslint-config/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/eslint-config/actions)
+
 * [aws-lambda-nodejs](https://github.com/oliversalzburg/aws-lambda-nodejs) ⭐  
    JS/TS project with AWS Lambda NodeJS runtime target.  
    [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/oliversalzburg/aws-lambda-nodejs/qa.yml?label=qa&style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/aws-lambda-nodejs/actions) 
