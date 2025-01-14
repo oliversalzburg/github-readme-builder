@@ -37,11 +37,6 @@ projects:
         repo: nodes-js
         name: Nodes.js
         description: Node-based playground for JavaScript.
-      - org: oliversalzburg
-        repo: docker-cloudflare-dns
-        name: docker-cloudflare-dns
-        description: Updates CloudFlare DNS with IP addresses of running Docker containers. Also illustrates how to containerize NodeJS workloads.
-        hasReleases: true
 
   - title: Actions
     projects:
