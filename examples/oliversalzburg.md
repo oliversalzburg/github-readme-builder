@@ -24,10 +24,6 @@
    Node-based playground for JavaScript.  
    [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/nodes-js/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/nodes-js/actions)
 
-* [docker-cloudflare-dns](https://github.com/oliversalzburg/docker-cloudflare-dns)  
-   Updates CloudFlare DNS with IP addresses of running Docker containers. Also illustrates how to containerize NodeJS workloads.  
-   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/docker-cloudflare-dns/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/docker-cloudflare-dns/actions) [![GitHub commits since latest release](https://img.shields.io/github/commits-since/oliversalzburg/docker-cloudflare-dns/latest?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/docker-cloudflare-dns/releases)
-
 ## Actions
 
 * [Automatic Semantic Releases Action](https://github.com/oliversalzburg/action-automatic-semantic-releases) ⭐  
