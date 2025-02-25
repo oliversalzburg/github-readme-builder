@@ -70,24 +70,17 @@ projects:
         repo: iac-aws-bootstrap
         name: IaC AWS Bootstrap
         description: Terraform remote state backend on AWS, using discovery-resistant naming patterns and ephemeral local states.
-        activeMaintenance: true
+        activeMaintenance: false
         hasReleases: false
       - org: oliversalzburg
         repo: iac-aws-ignition
         name: IaC AWS Igniter
         description: Getting started with IaC on AWS with as little manual steps as possible. From `root` to routine.
-        activeMaintenance: true
+        activeMaintenance: false
         hasReleases: false
 
   - title: Templates
     projects:
-      - org: oliversalzburg
-        repo: js-monorepo
-        name: js-monorepo
-        description: JS/TS monorepo, using [yarn project manager](https://yarnpkg.com/).
-        activeMaintenance: true
-        checks:
-          - qa
       - org: oliversalzburg
         repo: nodejs
         name: nodejs
@@ -102,11 +95,5 @@ projects:
         activeMaintenance: true
         checks:
           - qa
-      - org: oliversalzburg
-        repo: eslint-config
-        name: ESLint Configuration
-        description: ESLint preset for most JavaScript projects.
-        activeMaintenance: true
-        hasReleases: true
 
 suffix: "-   ⭐ = Under active maintenance"

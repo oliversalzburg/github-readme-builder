@@ -44,19 +44,15 @@
 
 ## Infrastructure
 
-* [IaC AWS Bootstrap](https://github.com/oliversalzburg/iac-aws-bootstrap) ⭐  
+* [IaC AWS Bootstrap](https://github.com/oliversalzburg/iac-aws-bootstrap)  
    Terraform remote state backend on AWS, using discovery-resistant naming patterns and ephemeral local states.  
    [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/iac-aws-bootstrap/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/iac-aws-bootstrap/actions)
 
-* [IaC AWS Igniter](https://github.com/oliversalzburg/iac-aws-ignition) ⭐  
+* [IaC AWS Igniter](https://github.com/oliversalzburg/iac-aws-ignition)  
    Getting started with IaC on AWS with as little manual steps as possible. From `root` to routine.  
    [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/iac-aws-ignition/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/iac-aws-ignition/actions)
 
 ## Templates
-
-* [js-monorepo](https://github.com/oliversalzburg/js-monorepo) ⭐  
-   JS/TS monorepo, using [yarn project manager](https://yarnpkg.com/).  
-   [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/oliversalzburg/js-monorepo/qa.yml?label=qa&style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/js-monorepo/actions) 
 
 * [nodejs](https://github.com/oliversalzburg/nodejs) ⭐  
    NodeJS project that uses [esbuild](https://esbuild.github.io/).  
@@ -65,9 +61,5 @@
 * [browser](https://github.com/oliversalzburg/browser) ⭐  
    Browser project that uses [vite](https://vitejs.dev/).  
    [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/oliversalzburg/browser/qa.yml?label=qa&style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/browser/actions) 
-
-* [ESLint Configuration](https://github.com/oliversalzburg/eslint-config) ⭐  
-   ESLint preset for most JavaScript projects.  
-   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/eslint-config/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/eslint-config/actions) [![GitHub commits since latest release](https://img.shields.io/github/commits-since/oliversalzburg/eslint-config/latest?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/eslint-config/releases)
 
 -   ⭐ = Under active maintenance
