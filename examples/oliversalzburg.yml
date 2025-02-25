@@ -64,6 +64,21 @@ projects:
         description: Centrally managed pipelines for most maintained projects.
         activeMaintenance: true
 
+  - title: Infrastructure
+    projects:
+      - org: oliversalzburg
+        repo: iac-aws-bootstrap
+        name: IaC AWS Bootstrap
+        description: Terraform remote state backend on AWS, using discovery-resistant naming patterns and ephemeral local states.
+        activeMaintenance: true
+        hasReleases: false
+      - org: oliversalzburg
+        repo: iac-aws-ignition
+        name: IaC AWS Igniter
+        description: Getting started with IaC on AWS with as little manual steps as possible. From `root` to routine.
+        activeMaintenance: true
+        hasReleases: false
+
   - title: Templates
     projects:
       - org: oliversalzburg
@@ -93,18 +108,5 @@ projects:
         description: ESLint preset for most JavaScript projects.
         activeMaintenance: true
         hasReleases: true
-      - org: oliversalzburg
-        repo: aws-lambda-nodejs
-        name: aws-lambda-nodejs
-        description: JS/TS project with AWS Lambda NodeJS runtime target.
-        activeMaintenance: true
-        checks:
-          - qa
-      - org: oliversalzburg
-        repo: hugo
-        name: hugo
-        description: Static website built with [Hugo](https://gohugo.io/).
-        checks:
-          - qa
 
 suffix: "-   ⭐ = Under active maintenance"

@@ -42,6 +42,16 @@
    Centrally managed pipelines for most maintained projects.  
    [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/workflows/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/workflows/actions)
 
+## Infrastructure
+
+* [IaC AWS Bootstrap](https://github.com/oliversalzburg/iac-aws-bootstrap) ⭐  
+   Terraform remote state backend on AWS, using discovery-resistant naming patterns and ephemeral local states.  
+   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/iac-aws-bootstrap/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/iac-aws-bootstrap/actions)
+
+* [IaC AWS Igniter](https://github.com/oliversalzburg/iac-aws-ignition) ⭐  
+   Getting started with IaC on AWS with as little manual steps as possible. From `root` to routine.  
+   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/iac-aws-ignition/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/iac-aws-ignition/actions)
+
 ## Templates
 
 * [js-monorepo](https://github.com/oliversalzburg/js-monorepo) ⭐  
@@ -59,13 +69,5 @@
 * [ESLint Configuration](https://github.com/oliversalzburg/eslint-config) ⭐  
    ESLint preset for most JavaScript projects.  
    [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/eslint-config/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/eslint-config/actions) [![GitHub commits since latest release](https://img.shields.io/github/commits-since/oliversalzburg/eslint-config/latest?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/eslint-config/releases)
-
-* [aws-lambda-nodejs](https://github.com/oliversalzburg/aws-lambda-nodejs) ⭐  
-   JS/TS project with AWS Lambda NodeJS runtime target.  
-   [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/oliversalzburg/aws-lambda-nodejs/qa.yml?label=qa&style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/aws-lambda-nodejs/actions) 
-
-* [hugo](https://github.com/oliversalzburg/hugo)  
-   Static website built with [Hugo](https://gohugo.io/).  
-   [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/oliversalzburg/hugo/qa.yml?label=qa&style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/hugo/actions) 
 
 -   ⭐ = Under active maintenance
