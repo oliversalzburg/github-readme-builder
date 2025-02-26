@@ -24,6 +24,10 @@
    Node-based playground for JavaScript.  
    [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/nodes-js/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/nodes-js/actions)
 
+* [which-webstorm](https://github.com/oliversalzburg/which-webstorm)  
+   Find the WebStorm binary in your local filesystem.  
+   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/which-webstorm/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/which-webstorm/actions)
+
 ## Actions
 
 * [Automatic Semantic Releases Action](https://github.com/oliversalzburg/action-automatic-semantic-releases) ⭐  

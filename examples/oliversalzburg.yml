@@ -37,6 +37,10 @@ projects:
         repo: nodes-js
         name: Nodes.js
         description: Node-based playground for JavaScript.
+      - org: oliversalzburg
+        repo: which-webstorm
+        name: which-webstorm
+        description: Find the WebStorm binary in your local filesystem.
 
   - title: Actions
     projects:
