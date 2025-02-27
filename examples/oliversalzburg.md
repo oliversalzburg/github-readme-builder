@@ -20,13 +20,21 @@
    General workload containerization playground.  
    [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/containers/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/containers/actions)
 
+* [C3Media Synchronization for Jellyin](https://github.com/oliversalzburg/c3media-jellyfin)  
+   Generates scripts that place C3Media content into your Jellyfin library.  
+   [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/oliversalzburg/c3media-jellyfin/qa.yml?label=qa&style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/c3media-jellyfin/actions) 
+
+* [GitHub Profile README Builder](https://github.com/oliversalzburg/github-readme-builder)  
+   Generates this profile page.  
+   [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/oliversalzburg/github-readme-builder/qa.yml?label=qa&style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/github-readme-builder/actions) 
+
 * [Nodes.js](https://github.com/oliversalzburg/nodes-js)  
    Node-based playground for JavaScript.  
    [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/nodes-js/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/nodes-js/actions)
 
 * [which-webstorm](https://github.com/oliversalzburg/which-webstorm)  
    Find the WebStorm binary in your local filesystem.  
-   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/which-webstorm/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/which-webstorm/actions)
+   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/which-webstorm/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/which-webstorm/actions) [![GitHub commits since latest release](https://img.shields.io/github/commits-since/oliversalzburg/which-webstorm/latest?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/which-webstorm/releases)
 
 ## Actions
 
@@ -45,16 +53,6 @@
 * [Shared Workflows](https://github.com/oliversalzburg/workflows) ⭐  
    Centrally managed pipelines for most maintained projects.  
    [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/workflows/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/workflows/actions)
-
-## Infrastructure
-
-* [IaC AWS Bootstrap](https://github.com/oliversalzburg/iac-aws-bootstrap)  
-   Terraform remote state backend on AWS, using discovery-resistant naming patterns and ephemeral local states.  
-   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/iac-aws-bootstrap/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/iac-aws-bootstrap/actions)
-
-* [IaC AWS Igniter](https://github.com/oliversalzburg/iac-aws-ignition)  
-   Getting started with IaC on AWS with as little manual steps as possible. From `root` to routine.  
-   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/iac-aws-ignition/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/iac-aws-ignition/actions)
 
 ## Templates
 

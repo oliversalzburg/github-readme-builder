@@ -34,9 +34,17 @@ projects:
         description: General workload containerization playground.
         activeMaintenance: true
       - org: oliversalzburg
+        repo: c3media-jellyfin
+        name: C3Media Synchronization for Jellyin
+        description: Generates scripts that place C3Media content into your Jellyfin library.
+        checks:
+          - qa
+      - org: oliversalzburg
         repo: github-readme-builder
         name: GitHub Profile README Builder
         description: Generates this profile page.
+        checks:
+          - qa
       - org: oliversalzburg
         repo: nodes-js
         name: Nodes.js
@@ -45,6 +53,7 @@ projects:
         repo: which-webstorm
         name: which-webstorm
         description: Find the WebStorm binary in your local filesystem.
+        hasReleases: true
 
   - title: Actions
     projects:
@@ -72,20 +81,21 @@ projects:
         description: Centrally managed pipelines for most maintained projects.
         activeMaintenance: true
 
-  - title: Infrastructure
-    projects:
-      - org: oliversalzburg
-        repo: iac-aws-bootstrap
-        name: IaC AWS Bootstrap
-        description: Terraform remote state backend on AWS, using discovery-resistant naming patterns and ephemeral local states.
-        activeMaintenance: false
-        hasReleases: false
-      - org: oliversalzburg
-        repo: iac-aws-ignition
-        name: IaC AWS Igniter
-        description: Getting started with IaC on AWS with as little manual steps as possible. From `root` to routine.
-        activeMaintenance: false
-        hasReleases: false
+# These are currently pinned. No need to repeat them.
+#  - title: Infrastructure
+#    projects:
+#      - org: oliversalzburg
+#        repo: iac-aws-bootstrap
+#        name: IaC AWS Bootstrap
+#        description: Terraform remote state backend on AWS, using discovery-resistant naming patterns and ephemeral local states.
+#        activeMaintenance: false
+#        hasReleases: false
+#      - org: oliversalzburg
+#        repo: iac-aws-ignition
+#        name: IaC AWS Igniter
+#        description: Getting started with IaC on AWS with as little manual steps as possible. From `root` to routine.
+#        activeMaintenance: false
+#        hasReleases: false
 
   - title: Templates
     projects:

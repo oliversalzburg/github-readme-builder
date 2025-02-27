@@ -25,7 +25,7 @@ test: build
 	yarn c8 --reporter=html-spa mocha output/*.test.js
 
 run: build
-	node ./output/main.js
+	@node ./output/main.js examples/oliversalzburg.yml
 
 
 node_modules:
