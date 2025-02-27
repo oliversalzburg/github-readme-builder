@@ -1,7 +1,7 @@
+import { pathToFileURL } from "node:url";
 import { isNil } from "@oliversalzburg/js-utils/data/nil.js";
 import { redirectErrorsToStream } from "@oliversalzburg/js-utils/errors/stream.js";
 import { readFile } from "fs/promises";
-import { pathToFileURL } from "node:url";
 import { parse } from "yaml";
 
 const args = process.argv.splice(2);
