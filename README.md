@@ -3,5 +3,5 @@
 To update:
 
 ```shell
-yarn run:default > examples/oliversalzburg.md
+make run
 ```

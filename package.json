@@ -1,6 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "yarn3-typescript-nodejs-esbuild",
+  "name": "github-readme-builder",
+  "private": true,
   "license": "MIT",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "type": "module",
@@ -19,6 +20,5 @@
     "mocha": "11.5.0",
     "typescript": "5.8.3"
   },
-  "packageManager": "yarn@4.9.1",
-  "version": ""
+  "version": "0.0.1"
 }
