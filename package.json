@@ -6,7 +6,7 @@
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "type": "module",
   "dependencies": {
-    "yaml": "2.8.0"
+    "yaml": "2.8.1"
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.3",
