@@ -23,7 +23,7 @@ lint: node_modules
 
 test:
 	npm exec -- tsc
-	npm exec -- c8 --reporter=html-spa mocha output/*.test.js
+	npm exec -- mocha output/*.test.js
 
 run: build
 	@node ./output/main.js examples/oliversalzburg.yml
