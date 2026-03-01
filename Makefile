@@ -23,7 +23,7 @@ lint: node_modules
 
 test:
 	npm exec -- tsc
-	npm exec -- mocha output/*.test.js
+	node --test output/*.test.js
 
 run: build
 	@node ./output/main.js examples/oliversalzburg.yml

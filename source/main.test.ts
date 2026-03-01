@@ -1,6 +1,6 @@
-import { expect } from "chai";
+import { before, describe, it } from "node:test";
+import assert from "assert";
 import { readFile } from "fs/promises";
-import { describe, it } from "mocha";
 import { main } from "./main.js";
 
 describe("main", () => {
@@ -12,6 +12,6 @@ describe("main", () => {
 
   it("should generate a document matching the fixture", async () => {
     const document = await main("./examples/oliversalzburg.yml");
-    expect(document).to.equal(fixtureDocument);
+    assert.strictEqual(document, fixtureDocument);
   });
 });
