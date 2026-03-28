@@ -70,12 +70,6 @@ projects:
         activeMaintenance: true
         hasReleases: true
       - org: oliversalzburg
-        repo: action-label-manager
-        name: Label Manager Action
-        description: Maintain the labels in your GitHub project through code.
-        activeMaintenance: true
-        hasReleases: true
-      - org: oliversalzburg
         repo: workflows
         name: Shared Workflows
         description: Centrally managed pipelines for most maintained projects.

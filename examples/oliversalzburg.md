@@ -46,10 +46,6 @@
    Ensure commits in your repository align with [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) expectations.  
    [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/action-commit-validator/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/action-commit-validator/actions) [![GitHub commits since latest release](https://img.shields.io/github/commits-since/oliversalzburg/action-commit-validator/latest?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/action-commit-validator/releases)
 
-* [Label Manager Action](https://github.com/oliversalzburg/action-label-manager) ⭐  
-   Maintain the labels in your GitHub project through code.  
-   [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/action-label-manager/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/action-label-manager/actions) [![GitHub commits since latest release](https://img.shields.io/github/commits-since/oliversalzburg/action-label-manager/latest?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/action-label-manager/releases)
-
 * [Shared Workflows](https://github.com/oliversalzburg/workflows) ⭐  
    Centrally managed pipelines for most maintained projects.  
    [![GitHub branch check runs](https://img.shields.io/github/check-runs/oliversalzburg/workflows/main?style=flat-square&labelColor=%230008)](https://github.com/oliversalzburg/workflows/actions)
